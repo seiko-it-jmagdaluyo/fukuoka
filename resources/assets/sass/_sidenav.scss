@@ -7,10 +7,14 @@
 }
 .menu-items,.external-links{
     background: url(/images/bg_menu.jpg) repeat 0 0;
-    padding: 1.5%;
+    padding: 2%;
 }
 .external-links{
     text-align: center;
+    padding-bottom: 4%;
+    img{
+        margin-top: 2%;
+    }
 }
 .blog-lnk{
     margin-top: 1rem;
