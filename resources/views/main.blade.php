@@ -9,7 +9,13 @@
         @include('partials._header')
 
         @include('partials._topnav')
-        @yield('carousel')
+        
+        @if(Request::is("/"))
+            @yield('carousel')
+        @else
+            @yield('titlebar')
+        @endif
+
         <div class="container">
             @yield('content')
         </div>

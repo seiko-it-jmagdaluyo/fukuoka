@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 .carousel{
-  margin: 2% 0;
+  margin: 1% 0;
 }
 .img-fluid {
   max-width: 100% !important;
@@ -36,3 +36,78 @@ Forces carousel image to be 100% width and not max width of 100%
   width:100% !important;
   height:100% !important;
 }
+.title-bar{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 991px) {
+  .container {
+    width: 100%;
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.content{
+  margin-top: 2%; 
+  .card{
+    margin-bottom: 2%;
+  }
+  .card-header{
+    background-color:#ebdbdb;
+    border-left: #ad0815 8px solid;
+    color:#900;
+    // padding: 1% !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+  }
+  
+  .page-description {
+    background: url(/images/bg_title2_h3.jpg) no-repeat 0 bottom;
+    color: #ff6600;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin-top: 2%;
+    padding: 1%;
+  }
+  .page-description-dtls{
+    padding: 1%;
+  }
+  .list_article {
+    width:100%;
+    list-style:none;
+    overflow:hidden;
+
+    dt {
+      padding:3px 0 1px 25px;
+      background:url(/images/icon_circle_bl.jpg) no-repeat left 3px;
+      color:#900;
+    }
+
+    dd {
+        padding: 3px 0 8px 25px;
+        border-bottom: 1px solid #EEE;
+        // margin: 0 0 10px;
+    }
+  }
+  .big-mg-space{
+    margin: 4% 0%;
+  }
+  .big-pd-space{
+    padding: 4% 0%;
+  }
+  .required{
+    color: #d8712d;
+  }
+  .contact-form{
+    background-color: rgb(240, 255, 255); 
+    color: rgb(49, 41, 41);
+  }
+  .paragraph-img{
+    margin:2%;
+  }
+}
+

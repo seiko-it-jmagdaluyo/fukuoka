@@ -10,7 +10,7 @@
                         <img src="images/s_menu01.jpg" alt="貿易会の紹介と入会案内" />
                     </li>
                     <ul class="sub-menu collapse" id="admission">
-                        <li><a href="introduction_index.php"><i class="fas fa-angle-right"></i>福岡貿易会とは</a></li>
+                        <li><a href="fuokuka-trading-council"><i class="fas fa-angle-right"></i>福岡貿易会とは</a></li>
                         <li><a href="introduction_index02.html"><i class="fas fa-angle-right"></i>主な活動内容</a></li>
                         <li><a href="introduction_index03.html"><i class="fas fa-angle-right"></i>入会案内</a></li>
                     </ul>
@@ -63,15 +63,17 @@
             </div>
 
             <p class="blog-lnk"><a href="/blog/"><img src="images/banner_blog_off.jpg" alt="スタッフブログ" /></a></p>
-
-            <div class="external-links">
-                <a href="http://www.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner01.jpg" alt="福岡市" /></a>
-                <a href="http://asiabiz.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner06.jpg" alt="Asia-biz Fukuoka" /></a>
-                <a href="http://island-city.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner02.jpg" alt="FUKUOKAアイランドシティ" /></a>
-                <a href="http://port-of-hakata.city.fukuoka.lg.jp/index.php" target="_blank"><img src="images/banner03.jpg" alt="博多港" /></a>
-                <a href="http://www.jetro.go.jp/indexj.html" target="_blank"><img src="images/banner04.jpg" alt="日本貿易振興機構（ジェトロ）" /></a>
-                <a href="http://www.fukunet.or.jp/index.shtml" target="_blank"><img src="images/banner05.jpg" alt="福岡商工会議所" /></a>
-            </div>
+            @if(Request::is("/"))
+        
+                <div class="external-links">
+                    <a href="http://www.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner01.jpg" alt="福岡市" /></a>
+                    <a href="http://asiabiz.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner06.jpg" alt="Asia-biz Fukuoka" /></a>
+                    <a href="http://island-city.city.fukuoka.lg.jp/" target="_blank"><img src="images/banner02.jpg" alt="FUKUOKAアイランドシティ" /></a>
+                    <a href="http://port-of-hakata.city.fukuoka.lg.jp/index.php" target="_blank"><img src="images/banner03.jpg" alt="博多港" /></a>
+                    <a href="http://www.jetro.go.jp/indexj.html" target="_blank"><img src="images/banner04.jpg" alt="日本貿易振興機構（ジェトロ）" /></a>
+                    <a href="http://www.fukunet.or.jp/index.shtml" target="_blank"><img src="images/banner05.jpg" alt="福岡商工会議所" /></a>
+                </div>
+            @endif
         </div>
     </div>
 </div>

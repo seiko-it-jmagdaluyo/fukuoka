@@ -15,6 +15,9 @@
     .navbar-light .navbar-toggler {
         border-color: white !important;
         margin: 5px;
+        .fa-bars:before {
+            font-size: 2rem;
+        }
     }
     &.topnav, .navbar{
         background-image: url('/images/topnav_bg.png') !important;

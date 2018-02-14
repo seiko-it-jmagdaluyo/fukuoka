@@ -21,6 +21,10 @@
   margin: 5px;
 }
 
+.topnav .navbar-light .navbar-toggler .fa-bars:before {
+  font-size: 2rem;
+}
+
 .topnav.topnav,
 .topnav .navbar {
   background-image: url("/images/topnav_bg.png") !important;
@@ -10157,6 +10161,8 @@ a.text-dark:focus {
 .nav-side-menu li img {
   width: 100%;
   height: 100%;
+  -webkit-filter: contrast(150%);
+          filter: contrast(150%);
 }
 
 .nav-side-menu ul :not(collapsed) .arrow:before,
@@ -10290,7 +10296,7 @@ body {
 }
 
 .carousel {
-  margin: 2% 0;
+  margin: 1% 0;
 }
 
 .img-fluid {
@@ -10305,5 +10311,87 @@ Forces carousel image to be 100% width and not max width of 100%
 .carousel-item .img-fluid {
   width: 100% !important;
   height: 100% !important;
+}
+
+.title-bar {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 991px) {
+  .container {
+    width: 100%;
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.content .card {
+  margin-bottom: 2%;
+}
+
+.content .card-header {
+  background-color: #ebdbdb;
+  border-left: #ad0815 8px solid;
+  color: #900;
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+.content .page-description {
+  background: url(/images/bg_title2_h3.jpg) no-repeat 0 bottom;
+  color: #ff6600;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  margin-top: 2%;
+  padding: 1%;
+}
+
+.content .page-description-dtls {
+  padding: 1%;
+}
+
+.content .list_article {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+
+.content .list_article dt {
+  padding: 3px 0 1px 25px;
+  background: url(/images/icon_circle_bl.jpg) no-repeat left 3px;
+  color: #900;
+}
+
+.content .list_article dd {
+  padding: 3px 0 8px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.content .big-mg-space {
+  margin: 4% 0%;
+}
+
+.content .big-pd-space {
+  padding: 4% 0%;
+}
+
+.content .required {
+  color: #d8712d;
+}
+
+.content .contact-form {
+  background-color: azure;
+  color: #312929;
+}
+
+.content .paragraph-img {
+  margin: 2%;
 }
 
