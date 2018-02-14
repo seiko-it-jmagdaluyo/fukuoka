@@ -25,9 +25,6 @@
     .navbar-light .navbar-nav .nav-link, .navbar-toggler {
         color: rgb(255, 255, 255) !important;
     }
-    .active{
-        font-weight: bold !important;
-    }
     #fa-search {
         vertical-align: middle;
         display: inline;
@@ -36,13 +33,35 @@
         text-shadow: 1px 1px 1px #ccc;
         font-size: 1em !important;
     }
+    li{
+        img:hover{
+            filter:brightness(200%) !important;
+        }
+    }
+    .active{
+        img{
+            filter:brightness(200%) !important;
+        }
+    }
 }
 
-.footer{
+.footer-top{
+    margin-top: 2%; 
+    padding: 2%;
+    background-color: rgb(182, 177, 177);
+
+    @media screen and ( min-width: 991px ) {
+        .container .row div{
+            &:first-child,&:nth-child(2){
+                border-right: #ccc 1px solid;
+            }
+        }
+    }
+}
+.footer-bottom{
     height: 131px;
     width: 100%;
     padding: 2.5%; 
-    margin-top: 2%; 
     background-image: url('/images/footer_bg.jpg');
     background-repeat: repeat-x;
     color: #fff;

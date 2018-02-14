@@ -9,7 +9,7 @@
         @include('partials._header')
 
         @include('partials._topnav')
-
+        @yield('carousel')
         <div class="container">
             @yield('content')
         </div>

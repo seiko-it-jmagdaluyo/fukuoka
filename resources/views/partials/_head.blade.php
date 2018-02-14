@@ -3,4 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>Laravel</title>
+<title>FUKUOKA FOREIGN TRADE ASSOCIATION | @yield("title")</title>
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />

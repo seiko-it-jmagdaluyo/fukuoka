@@ -13620,6 +13620,8 @@ __webpack_require__(12);
 //     el: '#app'
 // });
 
+$('.carousel').carousel();
+
 /***/ }),
 /* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
