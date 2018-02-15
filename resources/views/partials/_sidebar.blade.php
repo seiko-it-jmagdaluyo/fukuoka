@@ -5,18 +5,16 @@
         <div  id="menu-content" class="menu-content collapse out">
             <div class="menu-items">
                 <ul>
-                    <li  data-toggle="collapse" data-target="#admission" class="collapsed active">
-                        <!-- <a href="#"><i class="fas fa-plane"></i>貿易会の紹介と入会案内<i class="fas fa-angle-double-right"></i></a> -->
+                    <li  data-toggle="collapse" data-target="#admission" class="{{ strpos(url()->current(), 'introduction') ? 'active' : 'collapsed'}}" {{ strpos(url()->current(), 'introduction') ? 'aria-expanded=true' : 'aria-expanded=false'}}>
                         <img src="images/s_menu01.jpg" alt="貿易会の紹介と入会案内" />
                     </li>
-                    <ul class="sub-menu collapse" id="admission">
-                        <li><a href="fuokuka-trading-council"><i class="fas fa-angle-right"></i>福岡貿易会とは</a></li>
-                        <li><a href="introduction_index02.html"><i class="fas fa-angle-right"></i>主な活動内容</a></li>
-                        <li><a href="introduction_index03.html"><i class="fas fa-angle-right"></i>入会案内</a></li>
+                    <ul class="sub-menu collapse {{ strpos(url()->current(), 'introduction') ? 'show' : ''}}" id="admission">
+                        <li class="{{ strpos(url()->current(), 'fuokuka-trading-council') ? 'active' : ''}}"><a href="introduction-fuokuka-trading-council"><i class="fas fa-angle-right"></i>福岡貿易会とは</a></li>
+                        <li class="{{ strpos(url()->current(), 'council-main-activities') ? 'active' : ''}}"><a href="introduction-council-main-activities"><i class="fas fa-angle-right"></i>主な活動内容</a></li>
+                        <li class="{{ strpos(url()->current(), 'admission-guidance') ? 'active' : ''}}"><a href="introduction-admission-guidance"><i class="fas fa-angle-right"></i>入会案内</a></li>
                     </ul>
                             
                     <li data-toggle="collapse" data-target="#consulting" class="collapsed">
-                        <!-- <a href="#"><i class="fas fa-briefcase"></i>貿易コンサルティング<i class="fas fa-angle-double-right"></i></a> -->
                         <img src="images/s_menu02.jpg" alt="Trade Consulting">
                     </li>
                     <ul class="sub-menu collapse" id="consulting">
@@ -25,7 +23,6 @@
                     </ul>
                             
                     <li data-toggle="collapse" data-target="#seminar" class="collapsed">
-                        <!-- <a href="#"><i class="fas fa-briefcase"></i>貿易コンサルティング<i class="fas fa-angle-double-right"></i></a> -->
                         <img src="images/s_menu03.jpg" alt="Seminar Information">
                     </li>
                     <ul class="sub-menu collapse" id="seminar">
@@ -33,7 +30,6 @@
                     </ul>
                             
                     <li data-toggle="collapse" data-target="#membership" class="collapsed">
-                        <!-- <a href="#"><i class="fas fa-briefcase"></i>貿易コンサルティング<i class="fas fa-angle-double-right"></i></a> -->
                         <img src="images/s_menu04.jpg" alt="Membership page">
                     </li>
                     <ul class="sub-menu collapse" id="membership">
@@ -42,7 +38,6 @@
                     </ul>
                             
                     <li data-toggle="collapse" data-target="#companies" class="collapsed">
-                        <!-- <a href="#"><i class="fas fa-briefcase"></i>貿易コンサルティング<i class="fas fa-angle-double-right"></i></a> -->
                         <img src="images/s_menu05.jpg" alt="Introduction of member companies">
                     </li>
                     <ul class="sub-menu collapse" id="companies">

@@ -10182,7 +10182,7 @@ a.text-dark:focus {
 
 .nav-side-menu ul .sub-menu li.active,
 .nav-side-menu li .sub-menu li.active {
-  color: #f77b72;
+  background-color: #f77b72;
 }
 
 .nav-side-menu ul .sub-menu li.active a,
@@ -10392,6 +10392,47 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .content .paragraph-img {
-  margin: 2%;
+  margin: 0px 10px;
+}
+
+.content .list-header {
+  margin-top: 4%;
+}
+
+.content ul.activities-list {
+  list-style-image: url("/images/icon_arrow_bl.gif");
+}
+
+.content ul.activities-list li {
+  padding: 1%;
+}
+
+.content .admission-intro {
+  background: url(/images/bg_member.png) no-repeat 0 0;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding: 2%;
+  overflow: initial;
+  margin-bottom: 2%;
+}
+
+.content .admission-intro p {
+  margin-left: 130px;
+}
+
+@media screen and (max-width: 991px) {
+  .content .admission-intro {
+    background-size: cover;
+    padding: 4%;
+  }
+
+  .content .admission-intro p {
+    margin-left: 0;
+  }
+}
+
+.content td.table-info {
+  width: 30%;
 }
 

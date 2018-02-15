@@ -15,7 +15,9 @@ Route::get('/', 'PagesController@getIndex');
 Route::get('members-page', 'PagesController@get_members_page');
 Route::get('contact-us', 'PagesController@get_contact_us');
 
-Route::get('fuokuka-trading-council', 'PagesController@get_ftc');
+Route::get('introduction-fuokuka-trading-council', 'PagesController@get_ftc');
+Route::get('introduction-council-main-activities', 'PagesController@get_cma');
+Route::get('introduction-admission-guidance', 'PagesController@get_ag');
 // Route::get('members-page', 'PagesController@get_members_page');
 // Route::get('contact-us', 'PagesController@get_contact_us');
 
