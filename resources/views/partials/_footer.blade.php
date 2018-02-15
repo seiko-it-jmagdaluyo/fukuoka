@@ -18,9 +18,9 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <p>
-                    <img src="images/map.jpg" alt="アクセスマップ" />
-                </p>
+                    <a href="images/map.jpg" data-toggle="lightbox">
+                        <img src="images/map.jpg" alt="アクセスマップ" />
+                    </a>
             </div>
         </div>
     </div>

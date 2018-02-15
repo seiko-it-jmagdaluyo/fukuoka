@@ -1,5 +1,5 @@
 @extends('main')    
-@section('title', 'Members Page')
+@section('title', '会員ページ')
 @section('titlebar')
     <div class="container">
         <img class='title-bar' src="images/h2_kaiin.jpg" alt="Membership page">

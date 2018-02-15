@@ -1,8 +1,10 @@
 @extends('main')    
-@section('title', 'Admission Guidance')
+@section('title', '入会案内')
 @section('titlebar')
     <div class="container">
-        <img class="title-bar" src="images/head_introduction.jpg" alt="福岡貿易会の紹介と入会案内">
+        <a href="images/head_introduction.jpg" data-toggle="lightbox">
+            <img class="title-bar" src="images/head_introduction.jpg" alt="福岡貿易会の紹介と入会案内">
+        </a>
     </div>
 @endsection
 

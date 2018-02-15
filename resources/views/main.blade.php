@@ -4,6 +4,7 @@
     <head>
         @include('partials._head')
         @include('partials._stylesheets')
+        @yield('css')
     </head>
     <body>
         @include('partials._header')
@@ -22,5 +23,6 @@
 
         @include('partials._footer')
         @include('partials._javascripts')
+        @yield('js')
     </body>
 </html>

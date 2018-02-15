@@ -20,5 +20,6 @@ require('./bootstrap');
 // const app = new Vue({
 //     el: '#app'
 // });
+require('./ekko-lightbox.min');
+require('./initialize');
 
-$('.carousel').carousel()

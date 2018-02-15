@@ -1,5 +1,5 @@
 @extends('main')    
-@section('title', 'Members Page')
+@section('title', 'お問い合わせ')
 @section('titlebar')
     <div class="container">
         <img class='title-bar' src="images/head_contact.jpg" alt="Contact Us">
