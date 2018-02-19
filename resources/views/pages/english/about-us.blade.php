@@ -18,9 +18,11 @@
                         <div class="card-body">
                             <p class="text-justify">
                                 Fukuoka Foreign Trade Association (FFTA) is an incorporated association established by trading companies and organizations in 1958 for the purpose of promoting foreign trade in the Fukuoka area. FFTA has been carrying 
-                                out projects to help its members expand their businesses and encourage mutual exchange. <br /><br />
+                                out projects to help its members expand their businesses and encourage mutual exchange. 
+                            </p>
+                            <p>
                                 In addition to publishing a newsletter for members, FFTA also conducts trade consulting, business seminars and company visits. With its move to the Asian Economic Exchange Center in the Elgala Building in July 1997, FFTA 
-                                has exerted a new line of services to encourage international economic exchange between Fukuoka/Kyushu and the rest of the world, particularly Asia, by providing information services, training programs and trade counseling not only with members but with non-member companies as well.</p>
+                                has exerted a new line of services to encourage international economic exchange between Fukuoka/Kyushu and the rest of the world, particularly Asia, by providing information services, training programs and trade counseling not only with members but with non-member companies as well.
                             </p>    
                         </div>
                     </div>

@@ -121,6 +121,13 @@ Forces carousel image to be 100% width and not max width of 100%
       padding: 1%;
     }
   }
+  ul.sitemap{
+    list-style-image: url('/images/icon_square_bl.jpg');
+    li a{
+      padding: 1%;
+      color: #291c02 !important;
+    }
+  }
   .admission-intro{
     background:url(/images/bg_member.png) no-repeat 0 0;
     background-size: cover; 
@@ -189,6 +196,17 @@ Forces carousel image to be 100% width and not max width of 100%
     .content{
       padding: 1%;
     }
+  }
+  .h1-hdr{
+    background: url(/images/bg_title2_h3.jpg) no-repeat 0 bottom;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0 10px 15px 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #ff6600;
   }
 }
 .en-area-concept{

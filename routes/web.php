@@ -14,6 +14,8 @@
 Route::get('/', 'PagesController@getIndex');
 Route::get('members-page', 'PagesController@get_members_page');
 Route::get('contact-us', 'PagesController@get_contact_us');
+Route::get('sitemap', 'PagesController@get_sitemap');
+Route::get('privacy-policy', 'PagesController@get_privacy');
 
 Route::get('ft-introduction-fuokuka-trading-council', 'PagesController@get_ftc');
 Route::get('ft-introduction-council-main-activities', 'PagesController@get_cma');
@@ -37,6 +39,9 @@ Route::get('fuokuka-news', 'PagesController@get_fuokuka_news');
 
 Route::get('en-fta', 'PagesController@get_en_ftc');
 Route::get('en-about-us', 'PagesController@get_en_aboutus');
+
+Route::get('cn-fta', 'PagesController@get_cn_ftc');
+Route::get('cn-about-us', 'PagesController@get_cn_aboutus');
 
 Auth::routes();
 

@@ -10,24 +10,26 @@ class PagesController extends Controller
     public function getIndex(){
         return view('pages.main.index');
     }
-
     public function get_members_page(){
         return view('pages.main.members');
     }
-
     public function get_contact_us(){
         return view('pages.main.contact');
+    }
+    public function get_sitemap(){
+        return view('pages.main.site-map');
+    }
+    public function get_privacy(){
+        return view('pages.main.privacy-policy');
     }
 
     //FUKOUKA TRADING COUNCIL PAGES
     public function get_ftc(){
         return view('pages.introduction.fuokuka-trading-council');
     }
-
     public function get_cma(){
         return view('pages.introduction.council-main-activities');
     }
-
     public function get_ag(){
         return view('pages.introduction.admission-guidance');
     }
@@ -36,7 +38,6 @@ class PagesController extends Controller
     public function get_intl_business(){
         return view('pages.trade-consulting.international-busines');
     }
-
     public function get_adviser_list(){
         return view('pages.trade-consulting.adviser-list');
     }
@@ -83,5 +84,13 @@ class PagesController extends Controller
     }
     public function get_en_aboutus(){
         return view('pages.english.about-us');
+    }
+    
+    //FUOKUKA CHINESE PAGES
+    public function get_cn_ftc(){
+        return view('pages.chinese.index');
+    }
+    public function get_cn_aboutus(){
+        return view('pages.chinese.about-us');
     }
 }

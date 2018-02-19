@@ -143,6 +143,11 @@
         text-align: center; 
         border-radius: 5px;
     }
+
+    .nav-side-menu ul .sub-menu li,
+    .nav-side-menu li .sub-menu li {
+        padding: 2%;
+    }
 }
 @media (min-width: 991px) {
     .nav-side-menu .menu-list #menu-content {
