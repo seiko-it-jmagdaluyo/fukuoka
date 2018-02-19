@@ -11,7 +11,7 @@
 
         @include('partials._topnav')
         
-        @if(Request::is("/"))
+        @if(Request::is("/") or Request::is("en-fta"))
             @yield('carousel')
         @else
             @yield('titlebar')

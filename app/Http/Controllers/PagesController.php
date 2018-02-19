@@ -76,4 +76,12 @@ class PagesController extends Controller
     public function get_fuokuka_news(){
         return view('pages.fuokuka-news.news');
     }
+    
+    //FUOKUKA ENGLISH PAGES
+    public function get_en_ftc(){
+        return view('pages.english.index');
+    }
+    public function get_en_aboutus(){
+        return view('pages.english.about-us');
+    }
 }

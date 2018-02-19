@@ -12,6 +12,9 @@
         padding-right: 0% !important;
         margin-top: 1%;
         margin-bottom: 1%;
+    .navbar-brand{
+        display:none;
+    }
     .navbar-light .navbar-toggler {
         border-color: white !important;
         margin: 5px;
@@ -86,6 +89,9 @@
         }
         #search{
             margin-bottom: 1rem;
+        }
+        .navbar-brand{
+            display:block;
         }
     }
 }

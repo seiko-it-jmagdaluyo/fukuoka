@@ -39,7 +39,6 @@
                             <div class="clearfix"></div>
                         </div>
 
-                        
                         <a href="images/jimusyo01.jpg" data-toggle="lightbox">
                             <img class="img-fluid big-mg-space" src="images/jimusyo01.jpg" alt="Fukuoka Trade Firm Office">
                         </a>

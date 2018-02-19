@@ -20,18 +20,17 @@
                 <div class="card">
                     <div class="card-body">
                         <p>
-                            <a href="/images/n_ttl01.jpg" data-toggle="lightbox">
+                            <a href="images/trade-n_ttl01.jpg" data-toggle="lightbox">
                                 <img class="img-fluid" src="images/trade-n_ttl01.jpg" alt="福岡貿易会情報誌　福貿ニュース" />
                             </a>
                         </p>
                     
-                        <a class="float-right" href="/images/trade-n_img01.jpg" data-toggle="lightbox">
-                            <img class="img-fluid paragraph-img" src="images/trade-n_img01.jpg" />
-                        </a>
-                        <p class="text-justify">
+                        <p class="text-justify clearfix">
+                            <a class="float-right" href="/images/trade-n_img01.jpg" data-toggle="lightbox">
+                                <img class="img-fluid paragraph-img" src="images/trade-n_img01.jpg" />
+                            </a>
                             福岡貿易会では、情報誌を年に数回発行しています。貿易に役立つ情報や福岡貿易会の活動報告などをお届けしています。
                         </p>
-                        <br/>
                         <div class="table-responsive-lg">
                             <table class="table table-bordered text-justify">
                                 <thead>

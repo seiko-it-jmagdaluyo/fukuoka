@@ -35,6 +35,9 @@ Route::get('member-companies-alphabetical-order', 'PagesController@get_alphabeti
 
 Route::get('fuokuka-news', 'PagesController@get_fuokuka_news');
 
+Route::get('en-fta', 'PagesController@get_en_ftc');
+Route::get('en-about-us', 'PagesController@get_en_aboutus');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

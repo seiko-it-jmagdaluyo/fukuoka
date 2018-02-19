@@ -13590,7 +13590,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(11);
-module.exports = __webpack_require__(38);
+module.exports = __webpack_require__(40);
 
 
 /***/ }),
@@ -13619,8 +13619,8 @@ __webpack_require__(12);
 // const app = new Vue({
 //     el: '#app'
 // });
-__webpack_require__(44);
-__webpack_require__(43);
+__webpack_require__(38);
+__webpack_require__(39);
 
 /***/ }),
 /* 12 */
@@ -40790,26 +40790,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 38 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */
-/***/ (function(module, exports) {
-
-$(document).on('click', '[data-toggle="lightbox"]', function (event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
-$('.carousel').carousel();
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports) {
-
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 +function (a) {
@@ -40984,6 +40964,22 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   })(jQuery);
 }(jQuery);
 //# sourceMappingURL=ekko-lightbox.min.js.map
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+$('.carousel').carousel();
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
