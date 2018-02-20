@@ -64,11 +64,11 @@
                                 <tr>
                                     <td class="table-info text-center">利用方法</td>
                                     <td>予約制ですので、電話等でお申し込みください。<br />(会社名、ご担当者名、連絡先、相談内容等をお知らせください。)<br />TEL　(092)452-0707　　FAX　(092)452-0700　　担当：柴田<br />
-                                    <span><a href="http://www.fukuoka-fta.or.jp/contact_index.php"><img src="images/trade_reserve_off.jpg" alt="e-mailでの予約はこちらから" /></a></span></td>
+                                    <span><a href="contact-us"><img class="img-fluid" src="images/trade_reserve_off.jpg" alt="e-mailでの予約はこちらから" /></a></span></td>
                                 </tr>
                                 <tr>
                                     <td class="table-info text-center">アドバイザー</td>
-                                    <td><a href="tradeconsulting_adviser.html"><img src="images/trade_adviser_off.jpg" alt="アドバイザー一覧はこちらから" /></a></td>
+                                    <td><a href="trade-consulting-adviser-list"><img class="img-fluid" src="images/trade_adviser_off.jpg" alt="アドバイザー一覧はこちらから" /></a></td>
                                 </tr>
                             </table>
                         </div>

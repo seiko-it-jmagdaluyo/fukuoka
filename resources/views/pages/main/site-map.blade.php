@@ -2,7 +2,9 @@
 @section('title', 'Sitemap')
 @section('titlebar')
     <div class="container">
-        <img class='title-bar' src="images/h2_sitemap.jpg" alt="Sitemap">
+        <a href="images/h2_sitemap.jpg" data-toggle="lightbox">
+            <img class='title-bar' src="images/h2_sitemap.jpg" alt="Sitemap">
+        </a>
     </div>
 @endsection
 

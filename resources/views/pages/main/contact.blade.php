@@ -2,7 +2,9 @@
 @section('title', 'お問い合わせ')
 @section('titlebar')
     <div class="container">
-        <img class='title-bar' src="images/head_contact.jpg" alt="Contact Us">
+        <a href="images/head_contact.jpg" data-toggle="lightbox">
+            <img class='title-bar' src="images/head_contact.jpg" alt="Contact Us">
+        </a>
     </div>
 @endsection
 
@@ -21,22 +23,24 @@
                     </div>
                     <div class="card-body">
                         <div class="col-lg-12">
-                            <p>お問い合わせの際には必ず以下をお読みください。</p>
+                            <p class="text-justify">お問い合わせの際には必ず以下をお読みください。</p>
 
                             <p class="text-justify">福岡貿易会では、ご指定のメールアドレス宛への迅速な回答を心がけておりますが、 お問い合わせ内容によりましては回答まで にお時間をいただく場合がございます。
                                 また、状況により電話にてご対応をさせていただく場合がございますので、予めご了承ください。</p>
                             
-                            <p>＊お電話でのお問い合わせにつきましては以下番号におかけください。</p>
+                            <p class="text-justify">＊お電話でのお問い合わせにつきましては以下番号におかけください。</p>
                         </div>
                         
                         <div class="col-lg-12 text-center big-mg-space">
-                            <img class="img-fluid" src="images/img_contact.png" alt="TEL 092-452-0707">
+                            <a href="images/img_contact.png" data-toggle="lightbox">
+                                <img class="img-fluid" src="images/img_contact.png" alt="TEL 092-452-0707">
+                            </a>
                         </div>  
 
                         <div class="card big-pd-space contact-form">
                             <div class="card-block">
                                 <div class="col-md-12">
-                                    <p><span class="required">※ 印 </span> は必須項目となっております。</p>
+                                    <p class="text-justify"><span class="required">※ 印 </span> は必須項目となっております。</p>
             
                                     <form>
                                         <div class="form-group row">

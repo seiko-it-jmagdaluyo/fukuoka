@@ -2,7 +2,9 @@
 @section('title', '会員ページ')
 @section('titlebar')
     <div class="container">
-        <img class='title-bar' src="images/h2_kaiin.jpg" alt="Membership page">
+        <a href="images/title_news.jpg" data-toggle="lightbox">
+            <img class='title-bar' src="images/h2_kaiin.jpg" alt="Membership page">
+        </a>
     </div>
 @endsection
 
@@ -16,7 +18,7 @@
             <div class="content">
                 
                 <h1 class="page-description">「会員ページ」のご案内</h1>
-                <p class="page-description-dtls">福岡貿易会では、福岡地域の貿易振興を目的としたセミナー・ゼミを随時開催しております。</p>
+                <p class="text-justify page-description-dtls">福岡貿易会では、福岡地域の貿易振興を目的としたセミナー・ゼミを随時開催しております。</p>
 
                 <div class="card">
                     <div class="card-header">

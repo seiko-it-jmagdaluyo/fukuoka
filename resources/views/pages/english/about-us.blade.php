@@ -2,7 +2,9 @@
 @section('title', 'About Us')
 @section('titlebar')
     <div class="container">
-        <img class="img-fluid" src="images/en_head_introduction.jpg" alt="About Us"/>
+        <a href="images/en_head_introduction.jpg" data-toggle="lightbox">
+            <img class="img-fluid" src="images/en_head_introduction.jpg" alt="About Us"/>
+        </a>
     </div>
 @endsection
 
@@ -20,7 +22,7 @@
                                 Fukuoka Foreign Trade Association (FFTA) is an incorporated association established by trading companies and organizations in 1958 for the purpose of promoting foreign trade in the Fukuoka area. FFTA has been carrying 
                                 out projects to help its members expand their businesses and encourage mutual exchange. 
                             </p>
-                            <p>
+                            <p class="text-justify">
                                 In addition to publishing a newsletter for members, FFTA also conducts trade consulting, business seminars and company visits. With its move to the Asian Economic Exchange Center in the Elgala Building in July 1997, FFTA 
                                 has exerted a new line of services to encourage international economic exchange between Fukuoka/Kyushu and the rest of the world, particularly Asia, by providing information services, training programs and trade counseling not only with members but with non-member companies as well.
                             </p>    
@@ -33,11 +35,11 @@
                         </div>
                         <div class="card-body">
                             <ol class="">
-                                <li>Providing trade-related information and opportunities to meet business partners</li>
-                                <li>Holding trade-related seminars, lectures and conferences </li>
-                                <li>Dispatching delegations to overseas and inviting delegations from abroad</li>
-                                <li>Promoting the improvements of trade-related functions and facilities in Fukuoka such as inviting overseas trade offices to open in Fukuoka and increasing the number of sea lines to and from Fukuoka</li>
-                                <li>Other services to attain the organization's objectives</li>
+                                <li  class="text-justify">Providing trade-related information and opportunities to meet business partners</li>
+                                <li  class="text-justify">Holding trade-related seminars, lectures and conferences </li>
+                                <li  class="text-justify">Dispatching delegations to overseas and inviting delegations from abroad</li>
+                                <li  class="text-justify">Promoting the improvements of trade-related functions and facilities in Fukuoka such as inviting overseas trade offices to open in Fukuoka and increasing the number of sea lines to and from Fukuoka</li>
+                                <li  class="text-justify">Other services to attain the organization's objectives</li>
                             </ol>
                         </div>
                     </div>

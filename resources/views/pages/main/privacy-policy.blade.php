@@ -2,7 +2,9 @@
 @section('title', 'Sitemap')
 @section('titlebar')
     <div class="container">
-        <img class='title-bar' src="images/h2_privacy.jpg" alt="個人情報の取扱い方針">
+        <a href="images/h2_privacy.jpg" data-toggle="lightbox">
+            <img class='title-bar' src="images/h2_privacy.jpg" alt="個人情報の取扱い方針">
+        </a>
     </div>
 @endsection
 
