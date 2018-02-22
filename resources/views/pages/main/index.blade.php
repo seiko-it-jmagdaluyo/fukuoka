@@ -1,7 +1,6 @@
 @extends('main')    
 @section('title', 'ホーム')
 @section('css')
-    <link rel="stylesheet" href="css/addtohomescreen.css"/>
 @endsection
 @section('carousel')
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -94,6 +93,4 @@
     </div>     
 @endsection
 @section('js')
-    <script src='js/addtohomescreen.js'></script>
-    <script>addToHomescreen();</script>
 @endsection
