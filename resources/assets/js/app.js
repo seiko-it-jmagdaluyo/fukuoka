@@ -21,6 +21,5 @@ require('./bootstrap');
 //     el: '#app'
 // });
 require('./ekko-lightbox.min');
-require('./jquery.lazy.min');
 require('./initialize');
 
