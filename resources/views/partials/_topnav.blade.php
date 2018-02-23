@@ -33,7 +33,7 @@
                     </li>
                 @endif
             </ul>
-            <form action="http://custom.search.yahoo.co.jp/search" method="get" id="search">
+            <form action="https://custom.search.yahoo.co.jp/search" method="get" id="search">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
                     <div class="input-group-append">
