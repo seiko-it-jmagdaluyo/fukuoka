@@ -9,27 +9,27 @@
             <ul class="navbar-nav mr-auto">
                 @if(Request::is("en-fta") or Request::is("en-about-us"))
                     <li class="nav-item {{ Request::is('en-fta') ? 'active' : '' }}">
-                        <a class="" href="en-fta"><img src="/images/en_menu01_off.JPG" alt="Home"/></a>
+                        <a class="" href="en-fta"><img src="/images/en_menu01_off.jpg" alt="Home"/></a>
                     </li>
                     <li class="nav-item {{ Request::is('en-about-us') ? 'active' : '' }}">
-                        <a class="" href="en-about-us"><img src="/images/en_menu02_off.JPG" alt="Abofut Us"/></a>
+                        <a class="" href="en-about-us"><img src="/images/en_menu02_off.jpg" alt="Abofut Us"/></a>
                     </li>
                 @elseif(Request::is("cn-fta") or Request::is("cn-about-us"))
                     <li class="nav-item {{ Request::is('cn-fta') ? 'active' : '' }}">
-                        <a class="" href="cn-fta"><img src="/images/cn_menu01_off.JPG" alt="Home"/></a>
+                        <a class="" href="cn-fta"><img src="/images/cn_menu01_off.jpg" alt="Home"/></a>
                     </li>
                     <li class="nav-item {{ Request::is('cn-about-us') ? 'active' : '' }}">
-                        <a class="" href="cn-about-us"><img src="/images/cn_menu02_off.JPG" alt="Abofut Us"/></a>
+                        <a class="" href="cn-about-us"><img src="/images/cn_menu02_off.jpg" alt="Abofut Us"/></a>
                     </li>
                 @else
                     <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
-                        <a class="" href="/"><img src="/images/menu01_off.JPG" alt="ホーム"/></a>
+                        <a class="" href="/"><img src="/images/menu01_off.jpg" alt="ホーム"/></a>
                     </li>
                     <li class="nav-item {{ Request::is('members-page') ? 'active' : '' }}">
-                        <a class="" href="members-page"><img src="/images/menu02_off.JPG" alt="会員ページ"/></a>
+                        <a class="" href="members-page"><img src="/images/menu02_off.jpg" alt="会員ページ"/></a>
                     </li>
                     <li class="nav-item {{ Request::is('contact-us') ? 'active' : '' }}">
-                        <a class="" href="contact-us"><img src="/images/menu03_off.JPG" alt="お問い合わせ"/></a>
+                        <a class="" href="contact-us"><img src="/images/menu03_off.jpg" alt="お問い合わせ"/></a>
                     </li>
                 @endif
             </ul>
